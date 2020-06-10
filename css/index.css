@@ -1,0 +1,29 @@
+.container{ 
+    display:flex;
+    justify-content: space-between;
+}
+.cake-image{ 
+    flex-basis: 35%;
+    z-index: 2;
+}
+.cake-image img{ 
+    width: 40em; 
+    height: 40em; 
+}
+
+.cake-content{ 
+    flex-basis: 60%; 
+    background-color: var(--col-cream); 
+    padding: 3em; 
+    z-index: 2;
+}
+.cake-heading{ 
+    color:var(--col-red);
+}
+
+.cake-content h2{ 
+    text-align: center;
+}
+.cake-content p{ 
+    text-align: justify; 
+    margin-top: 2em;}

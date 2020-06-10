@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root{
+    --col-red:#8f3137;
+    --col-pink:#c18a78;
+    --col-brown:#372b23;
+    --col-cream:#e2d7cd;
+    --col-l-brown:#937053;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    color:#372b23;
+    line-height: 2.3em;
+}
+
+.wrapper{
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+/* header */
+.header-top{
+    background-color: var(--col-red);
+    margin-bottom: 3em;
+}
+.nav{ 
+    padding:1em
+}
+.list{ 
+    display: flex; 
+    justify-content: space-between;
+}
+.list li{  
+    list-style: none; 
+    padding: 1em;
+}
+.list a{ 
+    text-decoration: none; 
+    color:var(--col-cream);
+}
+
+/* Text */
+.content-text{
+    font-family: Montserrat, sans-serif;
+}
+
+/* bg effect */
+.background-cake-trans-image{ 
+    position: relative;
+}
+
+.left-corner img{ 
+    position: absolute;
+    opacity: 20%;
+    left: 80em;
+    bottom: -1em;
+    transform:scaleX(-1);
+}
+
+.right-corner img{ 
+    position: absolute;
+    opacity: 20%;
+    right:80em;
+    bottom: -1em;
+}
+
+/*  footer  */
+.footer{
+    background-color: var(--col-red);
+    margin-top: 3em;
+}
